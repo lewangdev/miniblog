@@ -1,0 +1,6 @@
+-e file:///Users/lewang/Workspaces/github.com/lewangdev/webpy/miniblog
+cheroot==9.0.0
+jaraco-functools==3.6.0
+more-itertools==9.1.0
+six==1.16.0
+web-py==0.62

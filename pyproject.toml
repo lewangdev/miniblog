@@ -1,0 +1,22 @@
+[project]
+name = "miniblog"
+version = "0.1.0"
+description = "Add a short description here"
+authors = [
+    { name = "Le Wang", email = "lewang.dev@gmail.com" }
+]
+dependencies = ["web.py~=0.62"]
+readme = "README.md"
+requires-python = ">= 3.8"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = ["pycodestyle~=2.10.0", "black~=23.3.0"]
+
+[tool.rye.scripts]
+serve = "python app.py 8088"
