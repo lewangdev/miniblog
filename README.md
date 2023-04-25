@@ -25,7 +25,7 @@ http://0.0.0.0:8088/
 
 Open the browser
 
-![image](https://user-images.githubusercontent.com/1455685/234286313-4ca7f0a3-d1d5-4c8b-b0fd-d46371cc2ecd.png}
+![image](https://user-images.githubusercontent.com/1455685/234286313-4ca7f0a3-d1d5-4c8b-b0fd-d46371cc2ecd.png)
 
 ## License
 
