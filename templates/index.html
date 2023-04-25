@@ -6,7 +6,7 @@ $def with (posts)
 $for post in posts:
     <li>
         <a href="/view/$post.id">$post.title</a>
-        from $datestr(post.posted_on)
+        at $post.posted_on
         <a href="/edit/$post.id">Edit</a>
     </li>
 </ul>
